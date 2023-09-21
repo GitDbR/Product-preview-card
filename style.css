@@ -88,7 +88,6 @@ body {
   color: var(--dark-cyan);
   font-size: 2rem;
   font-weight: 700;
-
 }
 .info .price del {
   font-family: Montserrat;
@@ -109,13 +108,17 @@ body {
   cursor: pointer;
 }
 
+.info .btn:hover {
+  background-color: var(--dark-blue);
+}
+
 .info .btn svg {
   margin: 0px 15px;
 }
+
 /* mobile css */
 @media (max-width: 426px) {
-
-  body{
+  body {
     display: flex;
     flex-direction: column;
   }
@@ -137,12 +140,9 @@ body {
     padding-right: 0px;
   }
 
-  
-
   .info .cat {
     font-size: 0.7rem;
     padding-top: 0px;
-
   }
 
   .info .title {
@@ -156,15 +156,14 @@ body {
   }
 
   .info .price .alt-price {
-    font-size:1.5rem;
+    font-size: 1.5rem;
   }
 
-  .info .price del{
-    font-size:0.7rem;
-
+  .info .price del {
+    font-size: 0.7rem;
   }
 
-  .info{
+  .info {
     row-gap: 1rem;
   }
 }
